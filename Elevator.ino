@@ -3,8 +3,8 @@
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27,16,2);
 
-byte pins[8]={7,8,9,10,11,12,13};
-byte disp[10][7] = {
+const byte pins[8]={7,8,9,10,11,12,13};
+const byte disp[10][7] = {
   {1, 1, 1, 1, 1, 1, 0}, // 0
   {0, 1, 1, 0, 0, 0, 0}, // 1
   {1, 1, 0, 1, 1, 0, 1}, // 2
